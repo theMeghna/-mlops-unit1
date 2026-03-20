@@ -22,3 +22,9 @@ print(data.isnull().sum())
 # Value counts (example: survival)
 print("\nSurvival Count:")
 print(data["Survived"].value_counts())
+
+print("\n Column Names:")
+print(data.columns.tolist())
+
+print("\n Dataset Shape:")
+print(data.shape)
